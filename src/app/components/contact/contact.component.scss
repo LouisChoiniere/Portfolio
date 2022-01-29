@@ -1,0 +1,47 @@
+#contact {
+    color: #fff;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        max-width: 400px;
+
+        > * {
+            flex-grow: 1;
+        }
+
+        .form-group {
+            input,
+            textarea {
+                width: 100%;
+                box-sizing: border-box;
+                background-color: transparent;
+                border-radius: 3px;
+                border: 1px solid #fff;
+                padding: 10px;
+                font-size: 16px;
+                line-height: 24px;
+                font-family: Roboto Mono, monospace;
+                color: #fff;
+                caret-color: #fff;
+
+                &:active,
+                &:focus-visible {
+                    box-shadow: inset 0 0 5px 0 #fff;
+                    border: 1px solid #fff;
+                    outline: none;
+                }
+
+                &::placeholder {
+                    color: #fff;
+                }
+            }
+
+            textarea {
+                height: 115px;
+                display: block;
+            }
+        }
+    }
+}
