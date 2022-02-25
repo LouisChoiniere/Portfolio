@@ -1,8 +1,8 @@
+import Contact from './components/contact/contact.component';
 import Header from './components/header/header.component';
 import Hello from './components/hello/hello.component';
-import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
-import Contact from './components/contact/contact.component';
+import Resume from './components/resume/Resume';
 
 import './App.scss';
 

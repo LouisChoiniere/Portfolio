@@ -15,26 +15,17 @@ const Resume = () => {
             <div className="resume-list" >
                 <h3 className="resume-list-title">education</h3>
                 <div className="resume-list-block">
-                    <p className="resume-list-block-title">University of Minnesota Twin Cities </p>
-                    <p className="resume-list-block-date">2006 - 2010</p>
+                    <p className="resume-list-block-title">Concordia University</p>
+                    <p className="resume-list-block-date">2021 - Current</p>
                     <p className="resume-list-block-description">
-                        Bachelor Computer Engineering Lorem
+                        Bachelor of Engineering (Computer Engineering)
                     </p>
                 </div>
                 <div className="resume-list-block">
-                    <p className="resume-list-block-title">School of Informational technologies</p>
-                    <p className="resume-list-block-date">2004 - 2005</p>
+                    <p className="resume-list-block-title">Champlain regional College St-Lambert</p>
+                    <p className="resume-list-block-date">2018 - 2021</p>
                     <p className="resume-list-block-description">
-                        Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius-
-                        mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    </p>
-                </div>
-                <div className="resume-list-block">
-                    <p className="resume-list-block-title">Lorem Ipsum School</p>
-                    <p className="resume-list-block-date">2003 - 2006</p>
-                    <p className="resume-list-block-description">
-                        Student, Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut
+                        DEC - Computer Science Legacy to Mobile
                     </p>
                 </div>
             </div>
@@ -43,26 +34,10 @@ const Resume = () => {
             <div className="resume-list" >
                 <h3 className="resume-list-title">employment</h3>
                 <div className="resume-list-block">
-                    <p className="resume-list-block-title">Apple</p>
-                    <p className="resume-list-block-date">2006 - 2010</p>
+                    <p className="resume-list-block-title">Cicle6</p>
+                    <p className="resume-list-block-date">Mar 2021 - Jan 2022 (9 months)</p>
                     <p className="resume-list-block-description">
-                        Senior Full Stack Developer
-                    </p>
-                </div>
-                <div className="resume-list-block">
-                    <p className="resume-list-block-title">Tech university</p>
-                    <p className="resume-list-block-date">2004 - 2005</p>
-                    <p className="resume-list-block-description">
-                        Awesome developer, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius-
-                        mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    </p>
-                </div>
-                <div className="resume-list-block">
-                    <p className="resume-list-block-title">Molly’s studio</p>
-                    <p className="resume-list-block-date">2003 - 2006</p>
-                    <p className="resume-list-block-description">
-                        Programmer Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut
+                        Junior Developer
                     </p>
                 </div>
             </div>
@@ -85,6 +60,7 @@ const Resume = () => {
                             <li>Web Design (HTML, CSS)</li>
                             <li>Rest API</li>
                             <li>Angular</li>
+                            <li>React</li>
                             <li>C#</li>
                             <li>NodeJS</li>
                             <li>Javascript</li>
@@ -98,6 +74,7 @@ const Resume = () => {
                     <p className="resume-list-block-description">
                         <ul className="tags">
                             <li>Java</li>
+                            <li>C++</li>
                             <li>PHP</li>
                             <li>Cobol</li>
                             <li>RPGLE</li>
@@ -106,7 +83,7 @@ const Resume = () => {
                     </p>
                 </div>
             </div>
-            
+
         </section>
     </>);
 }

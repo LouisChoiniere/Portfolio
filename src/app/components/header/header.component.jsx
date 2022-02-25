@@ -1,7 +1,8 @@
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, } from '@fortawesome/free-brands-svg-icons'
 
 import './header.component.scss';
+
 
 const Header = () => {
     return (<>
@@ -9,6 +10,7 @@ const Header = () => {
             <div className="container section">
 
                 <div className="columns">
+                    {/* TODO Add picture maybe */}
                     {/* <div className="column is-hidden-mobile is-4">
                         <img className='personal-profile__picture' src="/img/img_avatar.png" alt="Picture of me" />
                     </div> */}
@@ -29,8 +31,8 @@ const Header = () => {
                         </dl>
 
                         <p className="personal-profile__social">
-                            <a href="https://www.linkedin.com/in/louis-choiniere/"><FontAwesomeIcon icon={faLinkedin} size='2x' color='#fff' /></a>
-                            <a href="https://github.com/LouisChoiniere/"><FontAwesomeIcon icon={faGithub} size='2x' color='#fff' /></a>
+                            <a href="https://www.linkedin.com/in/louis-choiniere/" target={'_blank'}><FontAwesomeIcon icon={faLinkedin} size='2x' color='#fff' /></a>
+                            <a href="https://github.com/LouisChoiniere/" target={'_blank'}><FontAwesomeIcon icon={faGithub} size='2x' color='#fff' /></a>
 
                         </p>
                     </div>

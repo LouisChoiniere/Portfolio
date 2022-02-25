@@ -7,6 +7,7 @@ const Contact = () => {
             <div className="container section">
                 <h2 id="portfolio_header" className="section-title">Get in touch_</h2>
 
+                {/* TODO Make form work */}
                 <form>
                     <div className="form-group">
                         <input className="form-field js-field-name" type="text" placeholder="Your name" required="" />
