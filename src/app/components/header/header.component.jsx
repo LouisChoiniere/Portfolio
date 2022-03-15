@@ -31,7 +31,7 @@ const Header = () => {
                         </dl>
 
                         <p className="personal-profile__social">
-                            <a href="https://www.linkedin.com/in/louis-choiniere/" target={'_blank'}><FontAwesomeIcon icon={faLinkedin} size='2x' color='#fff' /></a>
+                            <a href="https://www.linkedin.com/in/LouisChoiniere/" target={'_blank'}><FontAwesomeIcon icon={faLinkedin} size='2x' color='#fff' /></a>
                             <a href="https://github.com/LouisChoiniere/" target={'_blank'}><FontAwesomeIcon icon={faGithub} size='2x' color='#fff' /></a>
 
                         </p>

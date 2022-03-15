@@ -20,16 +20,15 @@ const Portfolio = () => {
             <div className="portfolio-cards">
                 <div className="project-card">
                     <div className="project-card-image">
-                        {/* TODO Change image */}
-                        <img src="/img/img_project_1_mono.png" alt="project-img" />
+                        <img src="/img/img_project_portfolio.png" alt="project-img" />
                     </div>
 
                     <div className="project-card-info">
                         <h3 className="project-card-info-title">This Portfolio</h3>
-                        {/* TODO Better description */}
                         <p className="project-card-info-description">
-                            Do answered bachelor occasion in of offended no concerns. Supply worthy warmth branch of no ye.
-                            Voice tried known to as my to. Though wished merits or be. Alone visit use these smart rooms ham.
+                            Create a portfolio using a framework that I have not used before (React).
+                            This is to develop my skills using new frameworks.
+                            I also familiarized myself using continuous integration using Cloudflare pages to automatically deploy changes made to the portfolio.
                         </p>
                         <p className="project-card-info-stack">Used stack:</p>
                         <ul className="tags">
@@ -38,21 +37,21 @@ const Portfolio = () => {
                             <li>scss</li>
                             <li>Cloudflare pages</li>
                         </ul>
-                        {/* <a href="#portfolio" className="project-card-info-link">www.superapp.com</a> */}
+                        {/* <a href="#portfolio" className="project-card-info-link"></a> */}
                     </div>
                 </div>
 
                 <div className="project-card">
                     <div className="project-card-image">
-                        {/* TODO Change image */}
-                        <img src="/img/img_project_2_mono.png" alt="project-img" />
+                        <img src="/img/img_project_te-ou.png" alt="project-img" />
                     </div>
 
                     <div className="project-card-info">
                         <h3 className="project-card-info-title">Custom web app for construction company</h3>
-                        {/* TODO Better description */}
                         <p className="project-card-info-description">
-                            Custom website to track employee schedules, tools and truck locations. Also included an admin page for managing employee credentials and permitions. Made for final project for cegep.
+                            This project was to create a custom website for our final project in college.
+                            This custom website was used to track employee schedules, tools and truck locations.
+                            It also included an admin page for managing employee credentials and permissions.
                         </p>
                         <p className="project-card-info-stack">Used stack:</p>
                         <ul className="tags">
@@ -63,7 +62,7 @@ const Portfolio = () => {
                             <li>bower</li>
                             <li>grunt</li>
                         </ul>
-                        {/* <a href="#portfolio" className="project-card-info-link">www.travellend.com</a> */}
+                        {/* <a href="#portfolio" className="project-card-info-link"></a> */}
                     </div>
                 </div>
             </div>
