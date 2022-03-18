@@ -25,6 +25,7 @@ const Portfolio = () => {
 
                     <div className="project-card-info">
                         <h3 className="project-card-info-title">This Portfolio</h3>
+                        <p className="project-card-info-description">2022</p>
                         <p className="project-card-info-description">
                             Create a portfolio using a framework that I have not used before (React).
                             This is to develop my skills using new frameworks.
@@ -48,6 +49,7 @@ const Portfolio = () => {
 
                     <div className="project-card-info">
                         <h3 className="project-card-info-title">Custom web app for construction company</h3>
+                        <p className="project-card-info-description">2020 - 2021</p>
                         <p className="project-card-info-description">
                             This project was to create a custom website for our final project in college.
                             This custom website was used to track employee schedules, tools and truck locations.
@@ -58,9 +60,7 @@ const Portfolio = () => {
                             <li>ASP.NET</li>
                             <li>Razor pages</li>
                             <li>Bootstrap</li>
-                            <li>BEM</li>
-                            <li>bower</li>
-                            <li>grunt</li>
+                            <li>MySQL</li>
                         </ul>
                         {/* <a href="#portfolio" className="project-card-info-link"></a> */}
                     </div>

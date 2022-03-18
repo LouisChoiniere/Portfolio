@@ -14,10 +14,10 @@ const Contact = () => {
                 <h2 id="portfolio_header" className="section-title">Get in touch_</h2>
                 <form onSubmit={submit}>
                     <div className="form-group">
-                        <input type="text" placeholder="Subject" required="true" value={subject} onChange={e => setSubject(e.target.value)}/>
+                        <input type="text" placeholder="Subject" required={true} value={subject} onChange={e => setSubject(e.target.value)}/>
                     </div>
                     <div className="form-group">
-                        <textarea placeholder="Type the message here" required="true" value={message} onChange={e => setMessage(e.target.value)}></textarea>
+                        <textarea placeholder="Type the message here" required={true} value={message} onChange={e => setMessage(e.target.value)}></textarea>
                     </div>
                     <button className="btn" type="submit" value="Send">Send</button>
                 </form>

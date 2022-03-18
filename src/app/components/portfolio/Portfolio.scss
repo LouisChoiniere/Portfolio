@@ -48,7 +48,11 @@
             .project-card-info-description {
                 font-size: 16px;
                 line-height: 24px;
-                margin-bottom: 45px;
+                margin-bottom: 12px;
+                
+                &:not(:last) {
+                    margin-bottom: 45px;
+                }
             }
 
             .project-card-info-stack {

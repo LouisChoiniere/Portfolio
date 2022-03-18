@@ -16,8 +16,7 @@ const App = () => {
         <Portfolio />
         <hr />
         <Contact />
-    </>
-    );
+    </>);
 }
 
 export default App;

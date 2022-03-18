@@ -6,11 +6,10 @@ const Hello = () => {
     return (<>
         <section id="hello" className="container section">
             <h2 id="hello_header" className="section-title">Hi_</h2>
-            {/* TODO write good intro paragraph */}
             <p className="section__description">
-                I am a Junior developer with the most experience in full stack web development.
-                </p>
-            <a href="/Resume.pdf" target="_blank" className="btn"><FontAwesomeIcon icon={faDownload}/> Download CV</a>
+                I am a Junior developer with the most experience in full stack web development looking for an internship to further develop my skills and improve my knowledge set.
+            </p>
+            <a href="/Resume.pdf" target="_blank" className="btn"><FontAwesomeIcon icon={faDownload} /> Download CV</a>
         </section>
     </>);
 }
