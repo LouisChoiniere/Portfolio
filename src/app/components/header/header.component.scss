@@ -1,25 +1,10 @@
-@use "~/node_modules/bulma/bulma";
-
-.personal-profile {
+.header {
     color: #fff;
     font-family: Roboto Mono, monospace;
-
-    // .section {
-    //     padding-bottom: 0;
-    //     margin-bottom: 3rem;
-
-    //     @include bulma.mobile {
-    //         & {
-    //             padding-bottom: 3rem;
-    //             margin-bottom: 0;
-    //         }
-    //     }
-    // }
 
     &__picture {
         border-radius: 5px;
         box-shadow: 0 0 27px rgb(96 96 96 / 34%);
-        // width: 90%;
         height: 380px;
         -o-object-fit: cover;
         object-fit: cover;

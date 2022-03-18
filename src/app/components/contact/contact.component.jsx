@@ -8,13 +8,13 @@ const Contact = () => {
     const [message, setMessage] = useState('');
 
     return (<>
-        <section id="contact" className="background" style={{ backgroundImage: 'linear-gradient(54deg, rgba(74, 76, 179, 0.95) 34%, hsla(0, 34%, 71%, 0.95)), url(/img/img_bg_main.jpg)' }}>
+        <section id="contact" className="background contact" style={{ backgroundImage: 'linear-gradient(54deg, rgba(74, 76, 179, 0.95) 34%, hsla(0, 34%, 71%, 0.95)), url(/img/img_bg_main.jpg)' }}>
 
             <div className="container section">
-                <h2 id="portfolio_header" className="section-title">Get in touch_</h2>
+                <h2 className="section__title">Get in touch_</h2>
                 <form onSubmit={submit}>
                     <div className="form-group">
-                        <input type="text" placeholder="Subject" required={true} value={subject} onChange={e => setSubject(e.target.value)}/>
+                        <input type="text" placeholder="Subject" required={true} value={subject} onChange={e => setSubject(e.target.value)} />
                     </div>
                     <div className="form-group">
                         <textarea placeholder="Type the message here" required={true} value={message} onChange={e => setMessage(e.target.value)}></textarea>

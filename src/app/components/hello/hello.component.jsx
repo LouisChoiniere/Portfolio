@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Hello = () => {
     return (<>
         <section id="hello" className="container section">
-            <h2 id="hello_header" className="section-title">Hi_</h2>
+            <h2 className="section__title">Hi_</h2>
             <p className="section__description">
                 I am a Junior developer with the most experience in full stack web development looking for an internship to further develop my skills and improve my knowledge set.
             </p>
