@@ -1,36 +1,55 @@
 @use "~/node_modules/bulma/bulma";
 
-.portfolio-cards {
-    .project-card:not(:last-child) {
-        margin-bottom: 40px;
+.projects {
+
+    @include bulma.mobile {
+        .project-card {
+            flex-direction: column;
+        }
     }
 
-    .project-card {
+    &__card {
         border: 1px solid #f1f1f1;
         transition: box-shadow 0.3s;
-
         display: flex;
         flex-direction: row;
 
-        .project-card-image,
-        .project-card-info {
+        > * {
             flex-basis: 50%;
         }
 
-        .project-card-image {
+        &:hover {
+            box-shadow: 0 1px 31px rgb(0 0 0 / 9%);
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 40px;
+        }
+
+        @include bulma.mobile {
+            flex-direction: column;
+        }
+
+        &-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e9e9e9;
+
             img {
-                width: 100%;
-                height: 100%;
-                display: block;
-                object-fit: cover;
+                margin-top: 75px;
+                margin-bottom: 35px;
+                width: 80%;
+                height: fit-content;
+                border-radius: 5px;
             }
         }
 
-        .project-card-info {
+        &-info {
             padding: 50px 50px 40px 30px;
             overflow: auto;
 
-            .project-card-info-title {
+            &-title {
                 font-size: 18px;
                 line-height: 30px;
                 font-family: Roboto Mono, monospace;
@@ -39,13 +58,13 @@
                 font-weight: 700;
             }
 
-            .project-card-info-description {
+            &-description {
                 font-size: 16px;
                 line-height: 24px;
-                margin-bottom: 45px;
+                margin-bottom: 12px;
             }
 
-            .project-card-info-stack {
+            &-stack {
                 font-family: Roboto Mono, monospace;
                 font-size: 12px;
                 line-height: 18px;
@@ -54,23 +73,13 @@
                 margin-bottom: 15px;
             }
 
-            .project-card-info-link {
+            &-link {
                 margin-top: 55px;
                 font-family: Roboto Mono, monospace;
                 font-size: 14px;
                 line-height: 20px;
                 float: right;
             }
-        }
-    }
-
-    .project-card:hover {
-        box-shadow: 0 1px 31px rgb(0 0 0 / 9%);
-    }
-
-    @include bulma.mobile {
-        .project-card {
-            flex-direction: column;
         }
     }
 }

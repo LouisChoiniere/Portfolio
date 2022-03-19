@@ -1,8 +1,8 @@
+import Contact from './components/contact/contact.component';
 import Header from './components/header/header.component';
 import Hello from './components/hello/hello.component';
-import Resume from './components/resume/Resume';
-import Portfolio from './components/portfolio/Portfolio';
-import Contact from './components/contact/contact.component';
+import Projects from './components/projects/projects.component';
+import Resume from './components/resume/resume.component';
 
 import './App.scss';
 
@@ -13,11 +13,10 @@ const App = () => {
         <hr />
         <Resume />
         <hr />
-        <Portfolio />
+        <Projects />
         <hr />
         <Contact />
-    </>
-    );
+    </>);
 }
 
 export default App;
