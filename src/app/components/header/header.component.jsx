@@ -20,8 +20,8 @@ const Header = () => {
                         <p className="header__work">Junior Fullstack Developer</p>
 
                         <dl className="header__contact-list">
-                            <dt>Age:</dt>
-                            <dd>{getAge()}</dd>
+                            {/* <dt>Age:</dt>
+                            <dd>{getAge()}</dd> */}
                             {/* <dt>Phone:</dt>
                             <dd><a href="tel:(514) 555 5555">(514) 555 5555</a></dd> */}
                             <dt>Email:</dt>
