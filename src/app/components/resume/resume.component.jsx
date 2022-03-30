@@ -32,7 +32,7 @@ const Resume = () => {
                     <p className="resume__list-block-description">
                         Junior Developer
                     </p>
-                    <p className="resume__list-block-date">Mar 2021 - May 2022 (3 months)</p>
+                    <p className="resume__list-block-date">Mar 2021 - May 2021 (3 months)</p>
                     <p className="resume__list-block-description">
                         Internship
                     </p>
