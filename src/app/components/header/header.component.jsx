@@ -1,8 +1,19 @@
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import './header.component.scss';
 
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+const socials = [
+    {
+        link: "https://www.linkedin.com/in/LouisChoiniere/",
+        icon: faLinkedin,
+    },
+    {
+        link: "https://github.com/LouisChoiniere/",
+        icon: faGithub,
+    },
+]
 
 const Header = () => {
     return (<>
@@ -21,8 +32,8 @@ const Header = () => {
 
                         <dl className="header__contact-list">
                             {/* <dt>Age:</dt>
-                            <dd>{getAge()}</dd> */}
-                            {/* <dt>Phone:</dt>
+                            <dd>{getAge()}</dd>
+                            <dt>Phone:</dt>
                             <dd><a href="tel:(514) 555 5555">(514) 555 5555</a></dd> */}
                             <dt>Email:</dt>
                             <dd><a href="mailto:louischoiniere@outlook.com">louischoiniere@outlook.com</a></dd>
@@ -31,9 +42,9 @@ const Header = () => {
                         </dl>
 
                         <p className="header__social">
-                            <a href="https://www.linkedin.com/in/LouisChoiniere/" target={'_blank'}><FontAwesomeIcon icon={faLinkedin} size='2x' color='#fff' /></a>
-                            <a href="https://github.com/LouisChoiniere/" target={'_blank'}><FontAwesomeIcon icon={faGithub} size='2x' color='#fff' /></a>
-
+                            {socials.map((social, i) => (
+                                <a key={i} href={social.link} target={'_blank'}><FontAwesomeIcon icon={social.icon} size='2x' color='#fff' /></a>
+                            ))}
                         </p>
                     </div>
                 </div>
