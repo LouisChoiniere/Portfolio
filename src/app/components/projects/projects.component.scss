@@ -1,12 +1,12 @@
-@use "~/node_modules/bulma/bulma";
+// @use "bulma/sass/utilities/mixins.scss" as bulma;
 
 .projects {
 
-    @include bulma.mobile {
-        .project-card {
-            flex-direction: column;
-        }
-    }
+    // @include bulma.mobile {
+    //     .project-card {
+    //         flex-direction: column;
+    //     }
+    // }
 
     &__card {
         border: 2px solid #f1f1f1;
@@ -26,9 +26,9 @@
             margin-bottom: 40px;
         }
 
-        @include bulma.mobile {
-            flex-direction: column;
-        }
+        // @include bulma.mobile {
+        //     flex-direction: column;
+        // }
 
         &-image {
             display: flex;

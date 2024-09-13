@@ -35,12 +35,16 @@ const skills = [
         data: ["French", "English"]
     },
     {
-        name: "Proficient in",
-        data: ["Web Design (HTML, CSS)", "Rest API", "Angular", "React", "C#", "NodeJS", "Javascript", "Typescript", "SQL", "Arduino", "Raspberry Pi"],
+        name: "Applications",
+        data: ["Office Suite", "Visual Studio", "KiCad"]
     },
     {
-        name: "Familiar with",
-        data: ["Java", "C++", "PHP", "Cobol", "RPGLE", "PLSQL",],
+        name: "Programming Languages",
+        data: ["C++", "C#", "Java", "SQL", "JavaScript", "Typescript", "HTML", "CSS/SCSS", "MATLAB", "COBOL", "VHDL"],
+    },
+    {
+        name: "Platforms",
+        data: ["Azure DevOps", "Git/GitHub", "Docker"],
     },
 ];
 

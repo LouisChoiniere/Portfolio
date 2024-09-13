@@ -4,7 +4,7 @@ const projects = [
     {
         imgPath: "/img/img_project_portfolio.png",
         name: "This Portfolio",
-        date: "2022",
+        date: "2022 - Current",
         description:
             `Create a portfolio using a framework that I have not used before (React).
             This is to develop my skills using new frameworks.
@@ -31,6 +31,23 @@ const projects = [
             "MySQL",
         ]
     },
+    {
+        imgPath: "/img/img_project_SmartHVAC.png",
+        name: "DIY Thermostat",
+        date: "2024 - present",
+        description:
+            `Designed and built a custom PCB with an Arduino and Wi-Fi capabilities to function as a thermostat. Integrated temperature sensors and a relay to control heating/cooling systems remotely through a web interface.`,
+        stack: [
+            "C++",
+            "Websockets",
+            "HTML/JS"
+        ],
+        tools: [
+            "Arduino",
+            "PlatformIO",
+            "Kicad",
+        ]
+    },
 ]
 
 const Projects = () => {
@@ -49,8 +66,8 @@ const Projects = () => {
                     <li><a href="#projects">landing pages</a></li>
                 </ul>
             </nav> */}
-            
-            {projects.map((project , i) => {
+
+            {projects.map((project, i) => {
                 return (
                     <div key={i} className="projects__card">
                         <div className="projects__card-image">
@@ -61,10 +78,21 @@ const Projects = () => {
                             <h3 className="projects__card-info-title">{project.name}</h3>
                             <p className="projects__card-info-description">{project.date}</p>
                             <p className="projects__card-info-description">{project.description}</p>
-                            <p className="projects__card-stack">Used stack:</p>
-                            <ul className="tags">
-                                {project.stack.map((e, i) => (<li key={i}>{e}</li>))}
-                            </ul>
+
+                            {project.stack ? <>
+                                <p className="projects__card-stack">Languages and framework used:</p>
+                                <ul className="tags">
+                                    {project.stack?.map((e, i) => (<li key={i}>{e}</li>))}
+                                </ul>
+                            </> : <></>}
+
+                            {project.tools ? <>
+                                <p className="projects__card-stack">Tool and platform used:</p>
+                                <ul className="tags">
+                                    {project.tools?.map((e, i) => (<li key={i}>{e}</li>))}
+                                </ul>
+                            </> : <></>}
+
                             {/* <a href="#portfolio" className="project-card-info-link"></a> */}
                         </div>
                     </div>
