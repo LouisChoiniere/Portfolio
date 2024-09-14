@@ -2,6 +2,23 @@ import './projects.component.scss';
 
 const projects = [
     {
+        imgPath: "/img/img_project_SmartHVAC.png",
+        name: "DIY Thermostat",
+        date: "2024 - present",
+        description:
+            `Designed and built a custom PCB with an Arduino and Wi-Fi capabilities to function as a thermostat. Integrated temperature sensors and a relay to control heating/cooling systems remotely through a web interface.`,
+        stack: [
+            "C++",
+            "Websockets",
+            "HTML/JS"
+        ],
+        tools: [
+            "Arduino",
+            "PlatformIO",
+            "Kicad",
+        ]
+    },
+    {
         imgPath: "/img/img_project_portfolio.png",
         name: "This Portfolio",
         date: "2022 - Current",
@@ -29,23 +46,6 @@ const projects = [
             "Razor pages",
             "Bootstrap",
             "MySQL",
-        ]
-    },
-    {
-        imgPath: "/img/img_project_SmartHVAC.png",
-        name: "DIY Thermostat",
-        date: "2024 - present",
-        description:
-            `Designed and built a custom PCB with an Arduino and Wi-Fi capabilities to function as a thermostat. Integrated temperature sensors and a relay to control heating/cooling systems remotely through a web interface.`,
-        stack: [
-            "C++",
-            "Websockets",
-            "HTML/JS"
-        ],
-        tools: [
-            "Arduino",
-            "PlatformIO",
-            "Kicad",
         ]
     },
 ]
