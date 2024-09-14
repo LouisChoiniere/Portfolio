@@ -28,7 +28,7 @@ const Header = () => {
                     {/* <div className="column is-12-mobile is-7 pl-5"> */}
                     <div className="column is-12 pl-5">
                         <p className="header__name">Louis Choinière</p>
-                        <p className="header__work">Junior Fullstack Developer</p>
+                        <p className="header__work">Computer Engineering Student @ Concordia University</p>
 
                         <dl className="header__contact-list">
                             {/* <dt>Age:</dt>

@@ -1,8 +1,8 @@
-@use "~/node_modules/bulma/bulma";
+@use "bulma/sass/utilities/mixins.scss" as bulmaMX;
 
 .projects {
 
-    @include bulma.mobile {
+    @include bulmaMX.mobile {
         .project-card {
             flex-direction: column;
         }
@@ -26,7 +26,7 @@
             margin-bottom: 40px;
         }
 
-        @include bulma.mobile {
+        @include bulmaMX.mobile {
             flex-direction: column;
         }
 
